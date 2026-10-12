@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Afaq Hashim | Decode Labs - Internship Project 1</title>
+  <meta name="description" content="Afaq Hashim - Decode Labs Tech Internship (Sep 30 - Oct 30). Project 1 The Responsive Architecture - Industrial Training Kit built with pure HTML, CSS Grid/Flex and JS.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="logo" href="#top">Afaq<span>Hashim</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Open menu">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+    <nav id="primaryNav" class="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#modules">Modules</a></li>
+        <li><a href="#how">How it works</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-text">
+        <h1>Train for the shop floor, from your phone.</h1>
+        <p>Internship Project 1 at <strong>Decode Labs Tech</strong> (Sep 30 - Oct 30). Built by Afaq Hashim - Mobile-first, no frameworks.</p>
+        <a class="btn" href="#about">About Project</a>
+      </div>
+      <img class="hero-img" src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=900&q=70" alt="Technician inspecting a machine in a workshop" width="900" height="600" loading="eager">
+    </section>
+
+    <section class="about" id="about">
+      <h2>About Me & Internship</h2>
+      <p>I'm <strong>Afaq Hashim</strong> from <strong>Peshawar, Pakistan</strong>. Full-Stack Development Intern at <strong>Decode Labs Tech</strong> - Batch Sep 30 to Oct 30, 2026..</p>
+      <p>This is <strong>Project 1: The Responsive Architecture</strong>. Task was to build a fully responsive website using only semantic HTML5, CSS Design Tokens (#A5866F Mocha, #A0D4E0 Blue) and CSS Grid/Flexbox. No Bootstrap, no Tailwind.</p>
+      <p><strong>What I Implemented:</strong> 
+      <p><Strong> Pillar 1 - Semantic (header/nav/main/section/article/footer)</Strong></p>
+      <p><Strong> Pillar 2 - Tokens & 60-30-10 Color Rule</Strong></p>
+      <p><Strong> Pillar 3 - Mobile-First Grid (1 col -> 2 col -> 3 col)</Strong></p>
+      <p><Strong> Pillar 4 - LCP/CLS optimization</Strong></p>
+      <p><strong>Skills:</strong> HTML5 Semantic, CSS3 Grid, Flexbox, clamp(), WCAG (skip-link, focus-visible, Escape to close menu)</p>
+    </section>
+
+    <section class="modules" id="modules">
+      <h2>Training modules</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Workplace Safety</h3>
+          <p>PPE, hazard spotting and emergency drills, taught with real shop-floor scenarios.</p>
+          <span class="tag">4 hours</span>
+        </article>
+        <article class="card">
+          <h3>Machine Operation</h3>
+          <p>Start-up, safe running and shutdown routines for lathes, drills and presses.</p>
+          <span class="tag">6 hours</span>
+        </article>
+        <article class="card">
+          <h3>Quality Control</h3>
+          <p>Measure with calipers and gauges, read tolerances, and log defects correctly.</p>
+          <span class="tag">5 hours</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="how" id="how">
+      <h2>How it works</h2>
+      <ol>
+        <li><strong>Pick a module.</strong> Start with safety, then move to machines.</li>
+        <li><strong>Learn in small steps.</strong> Each lesson takes about ten minutes.</li>
+        <li><strong>Check yourself.</strong> A short quiz ends every lesson.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div>
+      <p><strong>Afaq Hashim</strong> | Decode Labs Intern</p>
+      <p>Peshawar, Pakistan | Sep 30 - Oct 30 Batch</p>
+    </div>
+    <div>
+      <p><a href="mailto:afaqhashim.dev@gmail.com">afaqhashim.dev@gmail.com</a></p>
+      <p>
+        <a href="https://github.com/afaqhashim182" target="_blank">GitHub</a> | 
+        <a href="https://www.linkedin.com/in/afaq-hashim" target="_blank">LinkedIn</a>
+      </p>
+      <p><small>&copy; 2026 Afaq Hashim | Decode Labs Tech</small></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
